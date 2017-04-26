@@ -12,6 +12,11 @@
 		A473BCC11EB05BDF004069EA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A473BCBF1EB05BDF004069EA /* Main.storyboard */; };
 		A473BCC31EB05BDF004069EA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A473BCC21EB05BDF004069EA /* Assets.xcassets */; };
 		A473BCC61EB05BDF004069EA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A473BCC41EB05BDF004069EA /* LaunchScreen.storyboard */; };
+		A473BCCE1EB06172004069EA /* BlueViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A473BCCD1EB06172004069EA /* BlueViewController.swift */; };
+		A473BCD01EB068E0004069EA /* BBlueViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A473BCCF1EB068E0004069EA /* BBlueViewController.swift */; };
+		A473BCD21EB07879004069EA /* GreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A473BCD11EB07879004069EA /* GreenViewController.swift */; };
+		A473BCD41EB0788B004069EA /* RedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A473BCD31EB0788B004069EA /* RedViewController.swift */; };
+		A473BCD61EB0789A004069EA /* YellowViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A473BCD51EB0789A004069EA /* YellowViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +27,11 @@
 		A473BCC21EB05BDF004069EA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A473BCC51EB05BDF004069EA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A473BCC71EB05BDF004069EA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A473BCCD1EB06172004069EA /* BlueViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BlueViewController.swift; sourceTree = "<group>"; };
+		A473BCCF1EB068E0004069EA /* BBlueViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BBlueViewController.swift; sourceTree = "<group>"; };
+		A473BCD11EB07879004069EA /* GreenViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GreenViewController.swift; sourceTree = "<group>"; };
+		A473BCD31EB0788B004069EA /* RedViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RedViewController.swift; sourceTree = "<group>"; };
+		A473BCD51EB0789A004069EA /* YellowViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YellowViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +70,11 @@
 				A473BCC21EB05BDF004069EA /* Assets.xcassets */,
 				A473BCC41EB05BDF004069EA /* LaunchScreen.storyboard */,
 				A473BCC71EB05BDF004069EA /* Info.plist */,
+				A473BCCD1EB06172004069EA /* BlueViewController.swift */,
+				A473BCCF1EB068E0004069EA /* BBlueViewController.swift */,
+				A473BCD11EB07879004069EA /* GreenViewController.swift */,
+				A473BCD31EB0788B004069EA /* RedViewController.swift */,
+				A473BCD51EB0789A004069EA /* YellowViewController.swift */,
 			);
 			path = Test;
 			sourceTree = "<group>";
@@ -137,7 +152,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				A473BCBE1EB05BDF004069EA /* ViewController.swift in Sources */,
+				A473BCD01EB068E0004069EA /* BBlueViewController.swift in Sources */,
+				A473BCCE1EB06172004069EA /* BlueViewController.swift in Sources */,
+				A473BCD61EB0789A004069EA /* YellowViewController.swift in Sources */,
 				A473BCBC1EB05BDF004069EA /* AppDelegate.swift in Sources */,
+				A473BCD41EB0788B004069EA /* RedViewController.swift in Sources */,
+				A473BCD21EB07879004069EA /* GreenViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
