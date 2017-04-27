@@ -12,6 +12,9 @@ class BBlueViewController: UIViewController {
     
     var myInput: String? = nil
 
+    @IBAction func changeBackColor(_ sender: Any) {
+        NotificationCenter.default.post(name: NSNotification.Name.init(rawValue:"CHANGE_COLOR"), object: nil, userInfo: nil)
+    }
     @IBOutlet weak var receive: UILabel!
     override func viewDidLoad() {
         super.viewDidLoad()

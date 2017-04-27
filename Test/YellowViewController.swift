@@ -9,9 +9,18 @@
 import UIKit
 
 class YellowViewController: UIViewController {
-
+    
     @IBOutlet var myTextField: UITextField!
+    
+    var myFunc:((UIColor) -> ())? = nil
+    
     @IBAction func done(_ sender: Any) {
+        
+        if let afunc = myFunc
+        {
+            afunc(UIColor.black)
+        }
+        
         if let myDelegate = delegate,  let myStr = myTextField.text
         {
             myDelegate.sendText(newText: myStr)
@@ -23,13 +32,25 @@ class YellowViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        NotificationCenter.default.addObserver(self, selector: #selector(changeColor(notification:)), name: NSNotification.Name.init("CHANGE_COLOR"), object: nil)
 
         // Do any additional setup after loading the view.
+    }
+    
+    func changeColor(notification:NSNotification)
+    {
+        self.view.backgroundColor = UIColor.white
     }
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
+    }
+    
+    func changeBackColor(_ f:@escaping (UIColor) -> ())
+    {
+        myFunc = f
     }
     
 
