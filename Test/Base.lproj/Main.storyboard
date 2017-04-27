@@ -107,6 +107,16 @@
                                     <action selector="changeBackColor:" destination="l2X-eN-RHI" eventType="touchUpInside" id="rNa-Jf-fdl"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QM1-6l-94O">
+                                <rect key="frame" x="99" y="496" width="177" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="AppdelegateChangeColor">
+                                    <color key="titleColor" red="0.42371753525488332" green="1" blue="0.47176947667903046" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="delegateChangeBackColor:" destination="l2X-eN-RHI" eventType="touchUpInside" id="MXL-7D-vCr"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="0.29460304590854713" green="0.40871424747688867" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </view>
